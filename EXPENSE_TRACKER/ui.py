@@ -20,9 +20,9 @@ class ExpenseApp:
         root.resizable(False, False)
 
         # Set colorful background
-        root.configure(bg="#f0f4ff")  # soft blue background
+        root.configure(bg="#f0f4ff")  # Soft pastel blue background
 
-        # Frame for form
+        # Frame for input form
         form_frame = tk.Frame(root, bg="#ffffff", padx=20, pady=20, bd=2, relief=tk.GROOVE)
         form_frame.place(x=50, y=50, width=300, height=220)
 
